@@ -56,7 +56,7 @@ int main (void)
     while(1)
     {
         //print prompt and accept input
-        printf("\n%s", PROMPT);
+        printf("%s", PROMPT);
         if(fgets(input, 1024, stdin) == NULL) break; //exits on CTRL + d
 		input[strlen(input) - 1] = '\0';
         
