@@ -1,0 +1,4 @@
+StASh: Stone Age Shell
+	compiled and ran via command line with:
+		gcc -o stash stash.c
+		./stash
